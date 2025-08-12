@@ -6,6 +6,7 @@ public static class ExcelHelper
 {
     public static List<string> ReadTrackingNumbers(string filePath)
     {
+        var kks = "";
         var list = new List<string>();
         using var workbook = new XLWorkbook(filePath);
         var sheet = workbook.Worksheet(1);
