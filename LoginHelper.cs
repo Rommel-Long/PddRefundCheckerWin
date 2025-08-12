@@ -8,6 +8,7 @@ using System.Windows.Forms;
 public static class LoginHelper
 {
     private const string CookiePath = "cookies.json";
+    private const string Cx = "crshi";
 
     public static void SaveCookies(IWebDriver driver)
     {
